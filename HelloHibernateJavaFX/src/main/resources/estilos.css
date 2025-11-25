@@ -1,0 +1,80 @@
+/* ==============================================
+   ESQUEMA DE COLOR
+   ============================================== */
+.root {
+    /* Colores principales */
+    -primary-color: #007ACC;    /* Azul corporativo (Botones principales) */
+    -secondary-color: #3C8DBC;  /* Azul más oscuro para hover */
+    -background-color: #f7f7f7; /* Fondo ligero */
+    -card-background-color: #ffffff; /* Fondo de contenedores/cards */
+    -text-color: #333333;       /* Texto oscuro */
+    -border-color: #CCCCCC;     /* Borde gris sutil */
+
+}
+/* Estilo específico para el botón con ID #btnCerrar (ROJO) */
+#btnCerrar {
+    /* Color de fondo rojo definido en las variables de error */
+    -fx-background-color: #C70039;
+}
+
+/* Efecto Hover: Rojo más oscuro */
+#btnCerrar:hover {
+    -fx-background-color: #B3002B;
+}
+#btnSalir {
+    -fx-background-color:#E71D36;
+}
+#btnSalir:hover {
+    -fx-background-color:#C00018;
+}
+#btnNuevaPelicula{
+    -fx-background-color:#40B86F;
+}
+#btnNuevaPelicula:hover{
+    -fx-background-color:#008A83;
+}
+
+
+
+/* Etiqueta de Título/Bienvenida */
+.label#welcomeText {
+    -fx-font-size: 24pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: -primary-color;
+}
+#lblUsuario {
+    -fx-font-size: 11pt;
+    -fx-font-style: italic;
+    -fx-text-fill: #666666;
+}
+
+/* ==============================================
+   INPUTS Y COMBO BOX
+   ============================================== */
+.text-field, .combo-box {
+    -fx-background-color: -card-background-color;
+    -fx-border-color: -border-color;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+    -fx-padding: 8px 10px;
+}
+
+
+
+.button {
+    -fx-background-color: -primary-color;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-effect: null;
+}
+
+
+.button:hover {
+    -fx-background-color: -secondary-color;
+}
+
+
+
